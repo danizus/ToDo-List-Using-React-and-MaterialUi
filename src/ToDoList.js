@@ -18,14 +18,17 @@ const handleChange=(e)=>{
     setItem(e.target.value)
 }
 const handleClick = (e)=>{
-  
+  if(item===""){
+
+  }
+  else{
     setarray((prev)=>{
         return [...prev,item]
     })
     setItem(" ")
 
 
-}
+}}
 
 
   return (
