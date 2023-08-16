@@ -1,4 +1,43 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.delete{
+  background-color: #ce5050;
+  margin:2px;
+  padding:4px;
+  border-radius: 4px;
+ 
+}
+.delete:hover{
+  color: #ce5050;
+  background-color: #282c34;
+ 
+  transform: translateX(2px);
+  cursor: pointer;
+}
+.cross{
+  background-color: #ce5050;
+ 
+  color: white;
+  margin: 2px;
+  border-radius: 4px;
+
+}
+.cross:hover{
+  color: #ce5050;
+  background-color: #282c34;
+  transform: translateX(2px);
+  cursor: pointer;
+}
+.clickedDel{
+  text-decoration-line: overline;
+
+}
+
+
 .App {
+
   text-align: center;
 }
 
